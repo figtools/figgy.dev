@@ -18,4 +18,6 @@
 
 {% include_relative _commons/copy-link.js %}
 
+{% include_relative _commons/websocket.js %}
+
 {% include_relative _utils/tooltip-loader.js %}
