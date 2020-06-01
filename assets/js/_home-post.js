@@ -10,6 +10,8 @@
 
 {% include_relative _utils/timeago.js %}
 
+{% include_relative _commons/websocket.js %}
+
 {% if site.google_analytics.pv.enabled %}
 
   {% include_relative data/pv-data.js %}

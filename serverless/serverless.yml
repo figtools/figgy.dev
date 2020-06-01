@@ -1,0 +1,34 @@
+service: figgy-edge-website
+
+provider:
+  name: aws
+  runtime: python3.7
+
+functions:
+  figgy_index_rewrite:
+    name: figgy-website-rewrite-index
+    description: "Rewrites urls ending in / to /index.html"
+    handler: functions/rewrite_index.handle
+    events:
+      - cloudFront:
+          eventType: origin-request
+          origin: "s3://figgy-website.s3.amazonaws.com"
+          behavior:
+            ViewerProtocolPolicy: https-only
+
+
+resources:
+  Resources:
+    CloudFrontDistribution:
+      Type: AWS::CloudFront::Distribution
+      Properties:
+        DistributionConfig:
+          PriceClass: PriceClass_100
+          Enabled: "true"
+          Comment: "www.figgy.dev distribution"
+          DefaultRootObject: index.html
+          Aliases:
+            - www.figgy.dev
+          ViewerCertificate:
+            AcmCertificateArn: ${ssm:/admin/figgy-cert-arn}
+            SslSupportMethod: sni-only
