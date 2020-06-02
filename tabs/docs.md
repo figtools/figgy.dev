@@ -1,5 +1,5 @@
 ---
-title: Categories
+title: Figgy Docs
 
 # All the Categories of posts
 # v2.0
