@@ -1,10 +1,7 @@
 name: 'Continuous Integration'
 on:
   push:
-    branches-ignore:
-      - stable
-    tags-ignore:
-      - '*'
+    branches: [master]
     paths-ignore:
       - '.github/**'
       - '!.github/workflows/**'
@@ -14,8 +11,7 @@ on:
       - 'README.md'
       - 'LICENSE'
   pull_request:
-    paths:
-      - "**"
+    branches: [master]
 
 jobs:
   ci:
@@ -66,6 +62,6 @@ jobs:
         run: |
           bash tools/build.sh
 
-      - name: Test Site
+      - name: Deploy Site
         run: |
-          bash tools/test.sh
+          bash tools/deploy.sh

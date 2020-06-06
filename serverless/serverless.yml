@@ -32,3 +32,7 @@ resources:
           ViewerCertificate:
             AcmCertificateArn: ${ssm:/admin/figgy-cert-arn}
             SslSupportMethod: sni-only
+          DefaultCacheBehavior:
+            MaxTTL: 86400
+            MinTTL: 30
+            DefaultTTL: 30

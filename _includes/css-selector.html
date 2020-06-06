@@ -16,6 +16,9 @@
 
     <link rel="preload" href="{{ '/assets/css/categories.css' | relative_url }}" as="style">
     <link rel="stylesheet" href="{{ '/assets/css/categories.css' | relative_url }}">
+  {% elsif page.title == 'Figgy Sandbox' %}
+    <link rel="stylesheet" href="{{ '/assets/css/categories.css' | relative_url }}">
+    <link rel="stylesheet" id="growl" href="{{ '/assets/css/lib/growl-dark-theme.min.css' | relative_url }}">
 
   {% elsif page.title == 'Tags' %}
 

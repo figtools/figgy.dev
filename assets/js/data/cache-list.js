@@ -20,6 +20,9 @@ const include = [
   '{{ "/assets/css/post.css" | relative_url }}',
   '{{ "/assets/css/category-tag.css" | relative_url }}',
   '{{ "/assets/css/lib/bootstrap-toc.min.css" | relative_url }}',
+  '{{ "/assets/css/lib/growl-colored-theme.min.css" | relative_url }}',
+  '{{ "/assets/css/lib/growl-dark-theme.min.css" | relative_url }}',
+  '{{ "/assets/css/lib/growl-light-theme.min.css" | relative_url }}',
 
   /*--- Javascripts ---*/
 
