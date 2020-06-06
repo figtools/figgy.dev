@@ -58,12 +58,13 @@ jobs:
           pip install
           bash tools/build.sh
 
-      - name: Deploy Site
+      - name: Setup python
         uses: actions/setup-python@v2
         with:
           python-version: 3.8
-          env:
-            AWS_REGION: us-east-1
+      - name: Deploy
+        env:
+          AWS_REGION: us-east-1
         run: |
           pip install awscli
           bash tools/deploy.sh
