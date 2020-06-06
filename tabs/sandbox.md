@@ -18,16 +18,21 @@ We grow a new beautiful Sandbox Fig Orchard every night :satisfied:.
 
 Want to give *figgy* a try? It's easy!
 
+Figgy requires python3
 ## **Step 1: Install Figgy**
 
    - **Mac:** 
 > ```
+> brew tap mancej/figgy
 > brew install figgy
+> 
+> OR
+> 
+> pip3 install figgy-cli
 >```
-
    - **Windows & Linux:** 
 > ```
-> pip install figgy-cli
+> pip3 install figgy-cli
 > ```
 
 ## **Step 2: Login to the Sandbox**
