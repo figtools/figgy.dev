@@ -18,7 +18,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, macos-latest]
+        os: [ubuntu-latest]
 
     steps:
       - uses: actions/setup-ruby@v1
@@ -39,11 +39,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - name: Install GNU-Coreutils(for macOS)
-        if: runner.os == 'macOS'
-        run: |
-          brew install coreutils
-
       - name: Bundle config
         run: |
           bundle config path vendor/bundle
@@ -60,8 +55,15 @@ jobs:
 
       - name: Build Site
         run: |
+          pip install
           bash tools/build.sh
 
       - name: Deploy Site
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+          env:
+            AWS_REGION: us-east-1
         run: |
+          pip install awscli
           bash tools/deploy.sh
