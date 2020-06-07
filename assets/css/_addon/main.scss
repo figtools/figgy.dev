@@ -887,6 +887,12 @@ table {
   flex-grow: 1!important;
 }
 
+.flex-grow-25 {
+  -ms-flex-positive: .25!important;
+  flex-grow: .25!important;
+}
+
+
 .btn-box-shadow {
   box-shadow: 0 0 8px 0 var(--btn-box-shadow)!important;
 }

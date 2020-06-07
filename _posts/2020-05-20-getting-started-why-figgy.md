@@ -1,8 +1,8 @@
 ---
-title: Get your Figgy on!
+title: Why Figgy?
 author: Jordan Mance
-date: 2020-05-28 20:00:00 +0500
-categories: [Figgy, Basics]
+date: 2020-05-30 20:00:00 +0500
+categories: [General, Why Figgy]
 tags: [favicon]
 toc: false
 ---

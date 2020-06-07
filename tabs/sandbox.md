@@ -9,7 +9,7 @@ title: "Figgy Sandbox"
 ---
 
 The Figgy sandbox is the perfect place to have a *fling* with Figgy without the *long-term* commitment so many tools
-require :smirk:. The Figgy sandbox consists of figgy a `bastion` deployment across 5 different AWS accounts. 
+require :smirk:. The Figgy sandbox consists of figgy configured as a `bastion` deployment across 5 different AWS accounts. 
 
 The accounts have been pre-populated with some `Fig Trees` (See - [Figgy Concepts]({{"/" | relative_url }}#concepts))
 Feel free take Figgy for a nice long walk through our Sandbox `Fig Orchard`:palm_tree:. Get to know `Figgy`, the `Fig Tree`, and all
@@ -25,9 +25,9 @@ Figgy requires python3
 > ```
 > brew tap mancej/figgy
 > brew install figgy
-> 
-> OR
-> 
+>
+ OR
+> ```
 > pip3 install figgy-cli
 >```
    - **Windows & Linux:** 
