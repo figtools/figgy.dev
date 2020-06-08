@@ -55,7 +55,7 @@ Figgy supports SAML based SSO integrations with multi-factor authentication. Sim
   - `/sre/*`
 
 
-- **Fig Tree** - A hierarchy of  under a high-level figgy-managed namespace.
+- **Fig Tree** - A hierarchy of configs under a high-level figgy-managed namespace.
     - e.g. - `/app/*`    
     
     
