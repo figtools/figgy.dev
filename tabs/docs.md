@@ -1,6 +1,6 @@
 ---
 title: Figgy Docs
-
+url: /docs/
 # All the Categories of posts
 # v2.0
 # https://github.com/cotes2020/jekyll-theme-chirpy

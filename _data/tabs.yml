@@ -21,7 +21,6 @@
 -
   name: Docs
   icon: "fas fa-stream"
-  path: tabs
   url: docs
 -
   name: "Archives"
