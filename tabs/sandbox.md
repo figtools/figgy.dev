@@ -21,16 +21,13 @@ Want to give *figgy* a try? It's easy!
 Figgy requires python3
 ## **Step 1: Install Figgy**
 
-   - **Mac:** 
+- **Mac:** 
 > ```
 > brew tap mancej/figgy
 > brew install figgy
 >
- OR
-> ```
-> pip3 install figgy-cli
->```
-   - **Windows & Linux:** 
+
+- **Windows & Linux:** 
 > ```
 > pip3 install figgy-cli
 > ```
