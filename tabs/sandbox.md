@@ -23,8 +23,7 @@ Figgy requires python3
 
 - **Mac:** 
 > ```
-> brew tap mancej/figgy
-> brew install figgy
+> brew install mancej/figgy/figgy
 >
 
 - **Windows & Linux:** 
