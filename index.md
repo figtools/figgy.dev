@@ -40,36 +40,10 @@ configuration changes over time, enabling you to roll back any config, or group 
 Figgy supports SAML based SSO integrations with multi-factor authentication. Simplify AWS access control with Figgy!
 
 > **Feature rich CLI to speed-up your development workflow.**
-![Figgy Get Browse]({{ "/assets/img/animations/home/get-browse.gif"| relative_url }})
-
-<a name="concepts"></a>
-<br/>
-## **Figgy Concepts**:
-
-- **Fig Orchard** - All con**fig**urations under all figgy-managed namespaces. 
-    - **These are examples. You select your own namespaces.**
-  - `/app/*`
-  - `/shared/*`
-  - `/dba/*`
-  - `/devops/*`
-  - `/sre/*`
 
 
-- **Fig Tree** - A hierarchy of configs under a high-level figgy-managed namespace.
-    - e.g. - `/app/*`    
-    
-    
-- **Twig** - A single hierarchy of configs under a **Fig Tree**
-    - e.g. - `/app/hello-world/*`
-    - Write your service IAM policies to ONLY access the *twig* namespace
-    
-    
-- **Fig** - A single con**fig**uration stored `/under/a/named/path` and on a **Twig**
-    - e.g. - `/app/hello-world/log/level`
-  
-> **These namespaces are all examples. You can name or Figs / Twigs / Trees, and Orchards however you like!**
+<img src="{{ "/assets/img/animations/home/get-browse.gif"| relative_url }}" alt="[Figgy Get Browse]" style="max-width: 700px">
 
-<br/>
 ## **Why Figgy?**
 
 *Out of the box, Figgy comes with all of these features:*
@@ -78,7 +52,7 @@ Figgy supports SAML based SSO integrations with multi-factor authentication. Sim
     - MFA is supported and encouraged
     - Figgy ONLY uses temporary credentials. Abandon all AWS access keys!
 
-- **An elegant CLI on top of AWS ParameterStore that addresses many ParameterStore limitations:**
+- **A user-friendly CLI on top of AWS ParameterStore that addresses many ParameterStore limitations:**
     - Add / Update / Delete / Edit configurations and more
     - Promote configs from lower to higher environments
     - Share secrets directly to the code that needs them. No more handing DB credentials to some middle man so they can go put them "somewhere".

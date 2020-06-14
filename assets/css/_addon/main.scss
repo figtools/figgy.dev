@@ -1548,3 +1548,7 @@ table {
 [data-notify="container"][class*="alert-pastel-"] > [data-notify="message"] {
 	font-weight: 400;
 }
+
+.darken-img {
+  filter: brightness(60%);
+}

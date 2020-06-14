@@ -22,20 +22,20 @@ Figgy requires python3
 ## **Step 1: Install Figgy**
 
 - **Mac:** 
-> ```
+> 
 > brew install mancej/figgy/figgy
 >
 
 - **Windows & Linux:** 
-> ```
+> 
 > pip3 install figgy-cli
-> ```
+> 
 
 ## **Step 2: Login to the Sandbox**
 * **Get a 1 hour session**
-> ```
+> 
 > figgy login sandbox
-> ```
+>
 
 **Follow the prompts:**
 * Choose a user name! 
