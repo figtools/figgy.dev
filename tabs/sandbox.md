@@ -11,7 +11,7 @@ title: "Figgy Sandbox"
 The Figgy sandbox is the perfect place to have a *fling* with Figgy without the *long-term* commitment so many tools
 require :smirk:. The Figgy sandbox consists of figgy configured as a `bastion` deployment across 5 different AWS accounts. 
 
-The accounts have been pre-populated with some `Fig Trees` (See - [Figgy Concepts]({{"/" | relative_url }}#concepts))
+The accounts have been pre-populated with some `Fig Trees` (See - [Figgy Concepts](https://www.figgy.dev/docs/getting-started/concepts.html)
 Feel free take Figgy for a nice long walk through our Sandbox `Fig Orchard`:palm_tree:. Get to know `Figgy`, the `Fig Tree`, and all
 the little `Figs` you can find across our sandbox AWS accounts.. Feel confident that you can't hurt Figgy or the `Fig Orchard`. 
 We grow a new beautiful Sandbox Fig Orchard every night :satisfied:.
