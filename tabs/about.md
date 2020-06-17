@@ -20,9 +20,8 @@ you at our next remote or in-person session!
 
 ## My tech background
 <br/>
-I distinctly remember the pre cloud-computing days and the hell of trying to maintain an in-house data center.
-This perspective has driven my deep appreciation for AWS and other cloud platforms. I've been poking AWS day-to-day for about 
-8 or 9 years now and have never looked back. Most recently, I've enjoyed building high volume streaming architectures 
+Over the my career my interest has gravitated towards cloud computing, serverless, DevSecOps, big data, and solving the unique 
+problems that emerge at scale. Most recently, I've enjoyed building high volume streaming architectures 
 leveraging Apache Kafka, AWS Kinesis, and WebSockets, but I'm always looking to learn something new 
 and never know what might spark my interest next. 
 
