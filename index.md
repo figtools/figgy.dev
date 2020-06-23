@@ -83,5 +83,5 @@ Figgy supports SAML based SSO integrations with multi-factor authentication. Sim
 
 and a lot more!
 
-[Try the Sandbox]({{ "/tabs/sandbox"| relative_url }})
+[Try the Sandbox]({{ "/tabs/sandbox/"| relative_url }})
 
