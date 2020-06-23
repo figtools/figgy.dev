@@ -26,10 +26,14 @@ Figgy requires python3
 > brew install figtools/figgy/figgy
 >
 
-- **Windows & Linux:** 
+- **Windows & Linux:** (requires python 3.7)
 > 
 > pip3 install figgy-cli
 > 
+
+Don't have Python 3.7? No problem!
+
+[More installation options](https://www.figgy.dev/docs/getting-started/install.html)
 
 ## **Step 2: Login to the Sandbox**
 * **Get a 1 hour session**
