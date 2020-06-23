@@ -28,4 +28,4 @@ and never know what might spark my interest next.
 P.S. 
 
 I'm not too good on the front-end so if one of these websites looks off please _feel free_ to send me some hints on the 
-[Figgy Slack](https://slack.figgy.dev) or even [Submit a PR](https://github.com/mancej/figgy.dev) :wink:. 
+[Figgy Slack](https://slack.figgy.dev) or even [Submit a PR](https://github.com/figtools/figgy.dev) :wink:. 
