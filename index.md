@@ -16,7 +16,13 @@ author: Jordan Mance
 
 # **What's Figgy?**
 <hr>
-Figgy is a **_free_** and **_opensource_** serverless application config framework designed to bring simplicity, security, and resilience to 
+
+Tired of managing hundreds or thousands of configurations as your microservice footprint scales? Feeling overwhelmed 
+by config files, environment variables, sprawling application secrets, or constantly crashing containers due to missing
+configurations? Ever been too afraid to delete a configuration because you weren't sure if, or what, was still using it?
+There's a better way, the Figgy way! 
+
+Figgy is an **_opensource_** serverless application config framework designed to bring simplicity, security, and resilience to 
 application config management. Figgy is built on top of AWS ParameterStore and leverages native AWS constructs such as AWS IAM, 
 KMS, DynamoDB, and Lambda to ensure a simple and elegant integration with your AWS environment.
 <br/>
